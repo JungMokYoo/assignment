@@ -23,7 +23,7 @@ class SignInActivity : AppCompatActivity() {
         btn.setOnClickListener {
 
             if(edit_text.text.toString().isEmpty() || edit_pass.text.toString().isEmpty()){
-                Toast.makeText(this,"아이디/비밀번호를 모두 입력해주세요",Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,"아이디 와 비밀번호를 모두 입력해주세요",Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
 
